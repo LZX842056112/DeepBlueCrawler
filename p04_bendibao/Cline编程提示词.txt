@@ -1,0 +1,7 @@
+爬取http://sh.bendibao.com/news/list_17_727_1.htm网站上的“学校政策”信息，包括所有分页。需要爬的内容：标题、标题 url、摘要、发布时间。
+
+NOTE: 在提示词中，最好明确爬多少页，例如爬取所有7页，不然它只爬取1-2页。
+
+补救措施，在enhanced_crawler.py文件中增加如下代码：
+max_page = 7
+
